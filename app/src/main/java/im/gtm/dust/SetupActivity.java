@@ -18,13 +18,12 @@ import android.widget.Button;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.firebase.iid.FirebaseInstanceId;
-import com.google.firebase.messaging.FirebaseMessagingService;
 
-public class SetupAcrivity extends AppCompatActivity
+public class SetupActivity extends AppCompatActivity
   implements NavigationView.OnNavigationItemSelectedListener
 {
   private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
-  private final String TAG = SetupAcrivity.class.getSimpleName();
+  private final String TAG = SetupActivity.class.getSimpleName();
 
   private boolean checkPlayServices() {
     GoogleApiAvailability apiAvailability = GoogleApiAvailability.getInstance();
