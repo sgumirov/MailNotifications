@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "197558581179",
+    "firebase_url": "https://dust-50992.firebaseio.com",
+    "project_id": "dust-50992",
+    "storage_bucket": "dust-50992.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197558581179:android:ddbc823f60e63ae6",
+        "android_client_info": {
+          "package_name": "im.gtm.dust"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197558581179-5nif8d7pthtaeco049963thvrv6n7not.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh_cAeI9frm5aKDe4Gtthq-XOofYbcmoQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

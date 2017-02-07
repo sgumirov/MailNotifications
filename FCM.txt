@@ -1,0 +1,5 @@
+// Production
+fcm-xmpp.googleapis.com:5235
+
+// Testing
+fcm-xmpp.googleapis.com:5236
