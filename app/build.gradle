@@ -18,6 +18,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    dexOptions {
+        maxProcessCount 2 // this is the default value
+        javaMaxHeapSize "1g"
+    }
     
     packagingOptions {
         exclude 'META-INF/DEPENDENCIES.txt'
